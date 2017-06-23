@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingTop="30sp"
+    android:paddingBottom="30sp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="Imie"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textLastname"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:text="Nazwisko"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textAge"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wiek"
+        android:textSize="40sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textName"
+        android:layout_toRightOf="@+id/textName"
+        android:layout_toEndOf="@+id/textName" />
+</RelativeLayout>
